@@ -1,0 +1,32 @@
+body {
+  background-color: whitesmoke;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.image {
+  width: 370px;
+  margin-top: 50px;
+}
+
+.footer {
+  align-self: flex-start;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+@media (max-width: 760px) {
+  .container {
+    margin: 0 10%;
+  }
+  .image {
+    width: 100%;
+  }
+  .footer {
+    font-size: 13px;
+  }
+}
